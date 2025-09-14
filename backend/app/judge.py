@@ -85,7 +85,7 @@ def llm_judge(claim: dict) -> dict:
         cleaned = re.sub(r"^```json\s*|```$", "", txt.strip())
         return json.loads(cleaned)
     except Exception:
-        # fallback simple rule
+        # fallback simple rule. could be more comprehensive.
         det = deterministic_checks(claim)
         if det["violations"]:
             return {"decision": "Deny", "confidence": 0.75, "violated_rules": det["violations"], "rationale": "Deterministic policy violations found.", "recommendation": "Request policy documents / proof of incident."}
