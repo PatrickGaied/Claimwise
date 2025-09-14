@@ -79,8 +79,22 @@ Claimwise accepts uploaded claim documents (PDF or text) and performs comprehens
 - **Mobile App**: Develop mobile applications for field adjusters and customers to submit claims directly
 - **Blockchain Integration**: Explore immutable claim records and smart contract automation for certain claim types
 
-## Sponsor Integration
-...
+## Sponsor Challenge Integration
+
+### Y Combinator - "Challenge an Iconic YC Company with AI"
+Claimwise builds directly on the vision of AI Insurance (YC W19), which created a platform for small-to-midsize insurers to digitize their back-end processes with the long-term goal of automating underwriting and claims entirely. Claimwise realizes that automation vision today - delivering the AI-powered claims processing system that AI Insurance envisioned, using modern LLMs to automatically adjudicate claims and eliminate the administrative waste they identified.
+
+### EigenCloud - "Build a Domain-Specific AI Judge"
+The `judge.py` module implements a sophisticated AI judge that applies a crisp insurance rulebook to make consistent, defensible claim decisions. It combines deterministic policy validation (coverage limits, active dates) with AI reasoning to evaluate complex scenarios, providing detailed rationales, confidence scores, and transparent decision-making for the highly regulated insurance domain.
+
+### Windsurf - "Build an agent using Windsurf as your IDE"
+This entire Claimwise project was built using the Windsurf IDE, leveraging its AI-powered development capabilities to rapidly prototype, debug, and refine the insurance processing pipeline. Windsurf's agentic assistance was instrumental in designing the modular architecture, implementing robust error handling, and optimizing the AI integration workflows.
+
+### Rox - "Build agents that handle real-world, messy data"
+Claimwise excels at processing messy, real-world insurance data through its hybrid extraction system in `parser.py` - combining regex patterns with AI to handle incomplete claim forms, conflicting information, and unstructured documents. The system includes conflict detection, data normalization in `cleaner.py`, and graceful error handling to operate reliably with the chaotic data that insurance companies encounter daily.
+
+### Cerebras - "Best Use of the Cerebras API"
+Claimwise leverages Cerebras's fast inference through `llm_client.py` as the primary AI provider for real-time claim analysis. The system uses Cerebras's speed advantage to deliver sub-second claim decisions while processing complex insurance documents, with intelligent fallback to Groq for maximum reliability - demonstrating practical use of high-speed inference in production workflows.
 
 ### Modern Tech Stack Integration
 - **FastAPI**: High-performance async web framework for enterprise-grade API endpoints
