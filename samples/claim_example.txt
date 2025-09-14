@@ -1,0 +1,6 @@
+Claim Submission
+Name: John Doe
+Policy No: A1234
+Date of incident: 09/02/2025
+Description: Repaired rear bumper after back-of-the-car collision. Estimated repair: $4,500. Photos attached.
+Notes: Called insurance 09/03/2025. No police report filed.

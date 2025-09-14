@@ -1,0 +1,56 @@
+INSURANCE CLAIM REPORT - AUTO ACCIDENT
+==================================
+
+Claimant Information:
+Name: Sarah Michelle Rodriguez
+Policy Number: B-9876
+Phone: (555) 123-4567
+Email: s.rodriguez@email.com
+
+Incident Details:
+Date of Loss: March 15, 2025
+Time: Approximately 2:30 PM
+Location: Intersection of Main St & Oak Ave, Springfield, IL
+
+Description of Incident:
+Multi-vehicle collision involving three cars. I was traveling northbound on Main Street when another vehicle ran a red light and struck my vehicle on the passenger side. The impact caused my car to spin and collide with a parked vehicle.
+
+Vehicle Information:
+Make/Model: 2022 Honda Civic
+License Plate: ABC-1234
+VIN: 1HGBH41JXMN109186
+
+Damages Reported:
+- Passenger side door completely crushed
+- Front bumper cracked and detached
+- Windshield spider-webbed
+- Airbags deployed
+- Possible frame damage
+
+Estimated Repair Cost: $18,500
+(Note: Initial estimate was $12,000 but revised after detailed inspection)
+
+Police Report: Filed - Report #2025-03-15-0234
+Officer: Badge #4567, Officer Johnson
+
+Witnesses:
+1. Mark Thompson - (555) 987-6543
+2. Lisa Chen - (555) 456-7890
+
+Medical Treatment:
+Treated at Springfield General Hospital for minor whiplash and bruising. Released same day.
+Medical bills: $2,300
+
+Photos: 15 digital photos attached showing damage from multiple angles
+
+Previous Claims: None in past 5 years
+
+Additional Notes:
+- Other driver cited for running red light
+- Tow truck: AAA Towing, $150
+- Rental car needed for 3 weeks while repairs completed
+- Lost work time: 2 days
+
+Submitted by: Sarah Rodriguez
+Date Submitted: March 18, 2025
+Signature: S. Rodriguez

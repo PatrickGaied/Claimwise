@@ -1,0 +1,124 @@
+WORKERS' COMPENSATION CLAIM
+Workplace Injury Report
+
+Employee Information:
+Name: Carlos Rivera
+Employee ID: WH-4578
+SSN: XXX-XX-6789 (last 4 digits)
+DOB: 08/15/1985
+Address: 567 Industrial Blvd, Apt 12
+         Phoenix, AZ 85034
+Phone: (602) 555-3421
+
+Employer Information:
+Company: Southwest Manufacturing Inc.
+Address: 1200 Factory Road, Phoenix, AZ 85035
+Supervisor: Janet Mitchell
+HR Contact: Tom Bradley - (602) 555-WORK
+Policy Number: WC-2024-789456
+
+Date of Injury: November 8, 2024
+Time of Injury: Approximately 10:45 AM
+Shift: Day shift (7:00 AM - 3:30 PM)
+Department: Assembly Line - Station 7
+
+DESCRIPTION OF ACCIDENT:
+While operating hydraulic press machine #7, safety guard malfunctioned and my left hand got caught when press cycled down. Immediately shut off machine and called for help. Coworker Maria Santos witnessed accident and helped me to first aid station.
+
+NATURE OF INJURY:
+Left hand injuries:
+- Crushed index and middle fingers
+- Deep laceration on palm (required 12 stitches)
+- Possible fracture of index finger (X-ray pending)
+- Severe bruising and swelling
+
+IMMEDIATE MEDICAL TREATMENT:
+First Aid Station (10:50 AM):
+- Supervisor Janet Mitchell provided initial care
+- Applied pressure bandage to control bleeding
+- Ice pack for swelling
+- Called 911 for transport to hospital
+
+Emergency Room - Phoenix General Hospital:
+Arrival: 11:30 AM
+Treating Physician: Dr. Lisa Park, MD
+Treatment provided:
+- X-rays of left hand (2 views)
+- Cleaning and suturing of palm laceration (12 stitches)
+- Splinting of index finger
+- Tetanus shot (last one was 2019)
+- Prescription for pain medication (Ibuprofen 800mg)
+- Follow-up appointment scheduled with orthopedic surgeon
+
+WORK RESTRICTIONS:
+- No use of left hand for 2-3 weeks minimum
+- No lifting over 10 pounds
+- No operation of machinery
+- Return to work date: TBD pending orthopedic evaluation
+
+WITNESSES:
+1. Maria Santos (Assembly Line Worker)
+   Employee ID: WH-3421
+   Phone: (602) 555-7890
+
+2. Jake Morrison (Quality Control)
+   Employee ID: QC-1234
+   Saw accident happen from inspection station
+
+SAFETY EQUIPMENT:
+- Safety glasses: Worn ✓
+- Steel-toed boots: Worn ✓
+- Work gloves: Not worn (not required for this operation)
+- Safety guard on machine: MALFUNCTIONED
+
+MACHINE INFORMATION:
+Machine: Hydraulic Press #7
+Model: Industrial Pro HP-5000
+Serial Number: IP-789456-2019
+Last Maintenance: October 15, 2024
+Maintenance Company: Phoenix Industrial Services
+
+SAFETY INVESTIGATION:
+Maintenance team inspected machine after accident
+Found: Faulty sensor in safety guard system
+Machine tagged "OUT OF ORDER" pending repair
+Similar machines being inspected as precaution
+
+PREVIOUS INJURIES:
+2022: Minor cut on finger (bandage only, no time off)
+2021: Strained back (3 days light duty, full recovery)
+
+LOST TIME:
+November 8, 2024: Left work at 11:15 AM
+Expected time off: 2-4 weeks (pending medical evaluation)
+Average weekly wage: $1,240 (based on last 13 weeks)
+
+MEDICAL PROVIDERS:
+Primary Care: Dr. Robert Chen - (602) 555-CARE
+Orthopedic Surgeon: Dr. Amanda Foster - (602) 555-BONE
+Appointment: November 12, 2024 at 2:00 PM
+
+CLAIM FILED BY:
+Employee: Carlos Rivera
+Date: November 8, 2024
+Signature: C. Rivera
+
+Supervisor: Janet Mitchell
+Date: November 8, 2024
+Signature: J. Mitchell
+
+HR Representative: Tom Bradley
+Date: November 9, 2024
+Signature: T. Bradley
+
+EMPLOYER NOTES:
+- Employee has excellent safety record
+- Machine malfunction was equipment failure, not employee error
+- Full cooperation with investigation
+- Modified duty available when medically cleared
+
+Claim Number: WC-PHX-2024-1108-CR
+Insurance Carrier: Arizona Workers Comp Insurance
+Adjuster: Sarah Johnson - (800) 555-COMP
+
+URGENT: Employee needs income replacement benefits ASAP
