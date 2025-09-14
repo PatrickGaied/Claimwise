@@ -1,14 +1,14 @@
 # Claimwise - AI-Powered Insurance Claims Processing
 
-## Project Description
+## 1. Project Description
 
 **Claimwise** is an intelligent insurance claims processing system that revolutionizes how insurance companies handle claim documents. Our AI-powered platform automatically extracts key information from claim documents, validates them against policy rules, and provides instant approve/deny/review decisions with detailed explanations. Built with a modern FastAPI backend and intuitive Streamlit frontend, Claimwise transforms hours of manual claim review into seconds of automated analysis.
 
-## Inspiration
+## 2. Inspiration
 
-The insurance industry processes millions of claims annually, with adjusters spending countless hours manually reviewing documents, cross-referencing policies, and making coverage decisions. This manual process is slow, expensive, and prone to human error. We were inspired by the potential to leverage modern AI to automate this workflow while maintaining the nuanced decision-making that insurance requires. Our goal was to create a system that doesn't just extract data, but actually thinks like an experienced claims adjuster.
+The insurance industry processes millions of claims annually, with adjusters spending countless hours manually reviewing documents, cross-referencing policies, and making coverage decisions. This manual process is slow, expensive, and prone to human error. I was inspired by the potential to leverage modern AI to automate this workflow while maintaining the nuanced decision-making that insurance requires. Our goal was to create a system that doesn't just extract data, but actually thinks like an experienced claims adjuster.
 
-## What it does
+## 3. What it does
 
 Claimwise accepts uploaded claim documents (PDF or text) and performs comprehensive automated analysis:
 
@@ -19,7 +19,7 @@ Claimwise accepts uploaded claim documents (PDF or text) and performs comprehens
 - **Professional Reporting**: Generates downloadable markdown reports with complete analysis and recommendations
 - **Real-time Processing**: Delivers results in seconds through an intuitive web interface
 
-## How we built it
+## 4. How it was built
 
 **Backend Architecture (FastAPI)**:
 - **Document Processing**: `ocr.py` handles PDF text extraction with OCR fallback using `pdfplumber` and `pytesseract`
@@ -37,7 +37,7 @@ Claimwise accepts uploaded claim documents (PDF or text) and performs comprehens
 - Engineered detailed prompts for context-aware analysis and decision-making
 - Implemented robust error handling and API fallback systems
 
-## Challenges we ran into
+## 5. Challenges I ran into
 
 - **API Reliability**: Initially faced issues with deprecated AI models and API quota limitations, requiring implementation of robust fallback systems and model updates
 - **Prompt Engineering**: Crafting prompts that generate specific, detailed analysis rather than generic responses required multiple iterations and careful instruction design
@@ -45,7 +45,7 @@ Claimwise accepts uploaded claim documents (PDF or text) and performs comprehens
 - **Error Handling**: Building resilient systems that gracefully handle PDF parsing failures, API timeouts, and malformed data
 - **Real-time Processing**: Ensuring the system provides fast responses while performing complex AI analysis
 
-## Accomplishments that we're proud of
+## 6. Accomplishments that we're proud of
 
 - **Production-Ready Architecture**: Built a fully functional, modular system with proper separation of concerns and robust error handling
 - **Hybrid Intelligence**: Successfully combined rule-based deterministic checks with AI reasoning for more reliable decisions
@@ -54,7 +54,7 @@ Claimwise accepts uploaded claim documents (PDF or text) and performs comprehens
 - **User Experience**: Developed an intuitive interface that makes complex insurance processing accessible to non-technical users
 - **Scalable Design**: Architected the system with modularity and extensibility in mind for future enhancements
 
-## What we learned
+## 7. What I learned
 
 - **AI Prompt Design**: Discovered the importance of specific, detailed prompts with clear output formats to get consistent, high-quality AI responses
 - **Fallback Systems**: Learned the critical value of implementing multiple fallback mechanisms for both AI APIs and data extraction methods
@@ -62,7 +62,7 @@ Claimwise accepts uploaded claim documents (PDF or text) and performs comprehens
 - **Full-Stack Integration**: Enhanced our skills in connecting AI services with web frameworks and creating seamless user experiences
 - **Error Resilience**: Understood the importance of graceful error handling in AI-powered applications where external services can fail
 
-## What's next for Claimwise
+## 8. What's next for Claimwise
 
 **Immediate Enhancements**:
 - **Database Integration**: Replace JSON policy storage with proper database for scalable policy management
@@ -80,18 +80,7 @@ Claimwise accepts uploaded claim documents (PDF or text) and performs comprehens
 - **Blockchain Integration**: Explore immutable claim records and smart contract automation for certain claim types
 
 ## Sponsor Integration
-
-### Groq - High-Performance AI Inference
-- **Primary AI Provider**: Leverages Groq's `llama-3.1-8b-instant` model for lightning-fast claim analysis
-- **Optimized Prompts**: Engineered specific prompts for insurance domain expertise and decision-making
-- **Real-time Processing**: Delivers sub-second AI responses for immediate claim decisions
-- **Cost-Effective**: Uses temperature=0.0 for consistent, deterministic outputs reducing API costs
-
-### Cerebras - Scalable AI Infrastructure  
-- **Fallback System**: Implements Cerebras `llama3.1-8b` as backup for high availability
-- **Enterprise Scale**: Architecture ready for high-volume claim processing with Cerebras infrastructure
-- **Robust Integration**: Seamless API switching between providers for maximum uptime
-- **Future-Ready**: Built to leverage Cerebras' advanced AI capabilities as they expand
+...
 
 ### Modern Tech Stack Integration
 - **FastAPI**: High-performance async web framework for enterprise-grade API endpoints
