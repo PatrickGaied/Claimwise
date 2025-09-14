@@ -39,7 +39,7 @@ Claimwise accepts uploaded claim documents (PDF or text) and performs comprehens
 
 ## 5. Challenges I ran into
 
-- **API Reliability**: Initially faced issues with deprecated AI models and API quota limitations, requiring implementation of robust fallback systems and model updates
+- **API Reliability**: Initially faced issues with AI models that didn't work and API quota limitations, requiring implementation of robust fallback systems and model updates
 - **Prompt Engineering**: Crafting prompts that generate specific, detailed analysis rather than generic responses required multiple iterations and careful instruction design
 - **Data Extraction Accuracy**: Balancing speed and accuracy in extracting structured data from unstructured claim documents led us to implement a hybrid regex + AI approach
 - **Error Handling**: Building resilient systems that gracefully handle PDF parsing failures, API timeouts, and malformed data
