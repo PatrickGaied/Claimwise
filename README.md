@@ -6,7 +6,7 @@
 
 ## 2. Inspiration
 
-The insurance industry processes millions of claims annually, with adjusters spending countless hours manually reviewing documents, cross-referencing policies, and making coverage decisions. This manual process is slow, expensive, and prone to human error. I was inspired by the potential to leverage modern AI to automate this workflow while maintaining the nuanced decision-making that insurance requires. Our goal was to create a system that doesn't just extract data, but actually thinks like an experienced claims adjuster.
+The insurance industry processes millions of claims annually, with adjusters spending countless hours manually reviewing documents, cross-referencing policies, and making coverage decisions. This manual process is slow, expensive, and prone to human error. I was inspired by the potential to leverage modern AI to automate this workflow while maintaining the nuanced decision-making that insurance requires. My goal was to create a system that doesn't just extract data, but actually thinks like an experienced claims adjuster.
 
 ## 3. What it does
 
@@ -45,7 +45,7 @@ Claimwise accepts uploaded claim documents (PDF or text) and performs comprehens
 - **Error Handling**: Building resilient systems that gracefully handle PDF parsing failures, API timeouts, and malformed data
 - **Real-time Processing**: Ensuring the system provides fast responses while performing complex AI analysis
 
-## 6. Accomplishments that we're proud of
+## 6. Accomplishments I'm proud of
 
 - **Production-Ready Architecture**: Built a fully functional, modular system with proper separation of concerns and robust error handling
 - **Hybrid Intelligence**: Successfully combined rule-based deterministic checks with AI reasoning for more reliable decisions
@@ -59,7 +59,7 @@ Claimwise accepts uploaded claim documents (PDF or text) and performs comprehens
 - **AI Prompt Design**: Discovered the importance of specific, detailed prompts with clear output formats to get consistent, high-quality AI responses
 - **Fallback Systems**: Learned the critical value of implementing multiple fallback mechanisms for both AI APIs and data extraction methods
 - **Insurance Domain**: Gained deep insights into insurance claim processing workflows and the complexity of coverage decisions
-- **Full-Stack Integration**: Enhanced our skills in connecting AI services with web frameworks and creating seamless user experiences
+- **Full-Stack Integration**: Enhanced my skills in connecting AI services with web frameworks and creating seamless user experiences
 - **Error Resilience**: Understood the importance of graceful error handling in AI-powered applications where external services can fail
 
 ## 8. What's next for Claimwise
