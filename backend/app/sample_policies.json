@@ -1,14 +1,53 @@
 {
   "A1234": {
     "policy_holder": "John Doe",
+    "insurer": "SafeDrive Insurance Co.",
+    "policy_type": "auto_insurance",
     "start_date": "2023-01-01",
     "end_date": "2026-12-31",
-    "coverage_limit": 10000
+    "coverage_limit": 10000,
+    "deductible": 500,
+    "covered_incidents": ["collision", "theft", "vandalism", "weather_damage"],
+    "exclusions": ["racing", "commercial_use", "intentional_damage", "war"],
+    "coverage_details": {
+      "liability": 10000,
+      "collision": 8000,
+      "comprehensive": 8000
+    }
   },
   "B-9876": {
     "policy_holder": "Acme Corp",
+    "insurer": "Business Shield Insurance",
+    "policy_type": "commercial_property",
     "start_date": "2024-03-01",
     "end_date": "2025-03-01",
-    "coverage_limit": 50000
+    "coverage_limit": 50000,
+    "deductible": 1000,
+    "covered_incidents": ["fire", "theft", "water_damage", "storm_damage"],
+    "exclusions": ["flood", "earthquake", "terrorism", "employee_theft"],
+    "coverage_details": {
+      "building": 30000,
+      "contents": 20000,
+      "business_interruption": 10000
+    }
+  },
+  "ML-987654": {
+    "policy_holder": "Dr. Amanda Foster, MD",
+    "insurer": "Medical Professionals Liability Insurance",
+    "policy_type": "professional_liability",
+    "start_date": "2024-01-01",
+    "end_date": "2025-12-31",
+    "coverage_limit": 1000000,
+    "deductible": 25000,
+    "covered_incidents": ["medical_malpractice", "misdiagnosis", "surgical_errors", "failure_to_treat", "medication_errors"],
+    "exclusions": ["criminal_acts", "substance_abuse", "sexual_misconduct", "billing_fraud", "intentional_harm"],
+    "coverage_details": {
+      "per_occurrence": 1000000,
+      "aggregate_annual": 3000000,
+      "legal_defense": "unlimited",
+      "disciplinary_proceedings": 50000
+    },
+    "specialty": "family_medicine",
+    "territory": "Texas"
   }
 }

@@ -76,14 +76,48 @@ Make your rationale unique and specific to this claim. Avoid generic language. R
 Only output JSON.
 """
 
+def clean_ai_text(text: str) -> str:
+    """Clean AI-generated text to remove formatting issues and special characters."""
+    import unicodedata
+    import re
+    
+    # Normalize Unicode characters
+    text = unicodedata.normalize('NFKD', text)
+    
+    # Remove or replace problematic characters
+    text = re.sub(r'[^\x00-\x7F]+', '', text)  # Remove non-ASCII
+    text = re.sub(r'′', "'", text)  # Replace smart quotes
+    text = re.sub(r'["""]', '"', text)  # Replace smart quotes
+    text = re.sub(r"[''']", "'", text)  # Replace smart apostrophes
+    text = re.sub(r'–', "-", text)  # Replace em dash
+    text = re.sub(r'—', "-", text)  # Replace en dash
+    
+    # Fix spacing around numbers and punctuation
+    text = re.sub(r'(\d),(\d)', r'\1,\2', text)  # Fix number formatting
+    text = re.sub(r'\s+', ' ', text)  # Collapse multiple spaces
+    
+    return text.strip()
+
 def llm_judge(claim: dict) -> dict:
     prompt = JUDGE_PROMPT.format(rulebook=json.dumps(RULEBOOK, indent=2), claim_json=json.dumps(claim, indent=2))
     resp = call_llm(prompt, max_tokens=500, temperature=0.0)
     txt = resp.get("text", "")
+    
+    # Clean the AI response text
+    txt = clean_ai_text(txt)
+    
     import re
     try:
         cleaned = re.sub(r"^```json\s*|```$", "", txt.strip())
-        return json.loads(cleaned)
+        result = json.loads(cleaned)
+        
+        # Clean the rationale text specifically
+        if 'rationale' in result:
+            result['rationale'] = clean_ai_text(result['rationale'])
+        if 'recommendation' in result:
+            result['recommendation'] = clean_ai_text(result['recommendation'])
+            
+        return result
     except Exception:
         # fallback simple rule. could be more comprehensive.
         det = deterministic_checks(claim)
