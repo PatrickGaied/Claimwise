@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pdfplumber
+pytesseract
+python-multipart
+python-dotenv
+requests
+pydantic
+python-dateutil
+regex
+fuzzywuzzy[speedup]
+streamlit
